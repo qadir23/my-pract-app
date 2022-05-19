@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        background-color: bisque;
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .label-column {
+
+        width: 100px;
+
+        /* background-color: brown; */
+
+
+    }
+
+    .input-column {
+        /* background-color: brown; */
+        /* display: inline-block; */
+        /* width: 100px; */
+
+
+    }
+
+    .row {
+        /* display: flex; */
+        /* added */
+        /* align-items: center;
+        justify-content: center; */
+        /* added */
+
+
+    }
+
+    input[type=text],
+    textarea {
+        padding: 10px;
+        border: 2px solid rgb(73, 58, 58);
+        border-radius: 6px;
+        margin-bottom: 4px;
+
+
+    }
+
+    input[type=number] {
+        padding: 10px;
+        border: 2px solid rgb(73, 58, 58);
+        border-radius: 6px;
+        margin-bottom: 4px;
+
+    }
+
+    input[type=submit] {
+        background-color: rgb(2, 49, 27);
+        border: 2px solid rgb(73, 58, 58);
+        border-radius: 4px;
+        padding: 10px;
+        color: white;
+        margin: 8px;
+
+
+    }
+
+    input[type=submit]:hover {
+        background-color: rgb(13, 126, 64);
+    }
+
+    /* @media screen and (max-width: 600px) {
+
+        .label-column,
+        .input-column,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+
+    }
+
+    @media screen and (max-width: 400px) {
+
+        .label-column,
+        .input-column,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+    } */
+</style>
+
+<body>
+    <div class="container">
+
+        <div
+            style="background-color: red; display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
