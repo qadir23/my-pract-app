@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.main-section {
+    background-image: url('../img/hero-bg.png');
+     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh !important; 
+    
+   
+}
+
+.navbar-text {
+    color: white;
+    text-transform: uppercase;
+    /* letter-spacing: 0.2rem; */
+    font-size: 1rem;
+}
